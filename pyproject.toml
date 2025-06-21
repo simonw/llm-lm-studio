@@ -1,0 +1,30 @@
+[project]
+name = "llm-lm-studio"
+version = "0.1"
+description = "LLM plugin for local models via LM Studio"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "llm"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/simonw/llm-lm-studio"
+Changelog = "https://github.com/simonw/llm-lm-studio/releases"
+Issues = "https://github.com/simonw/llm-lm-studio/issues"
+CI = "https://github.com/simonw/llm-lm-studio/actions"
+
+[project.entry-points.llm]
+lm_studio = "llm_lm_studio"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-httpx"]
