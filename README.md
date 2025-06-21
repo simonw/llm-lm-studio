@@ -1,17 +1,15 @@
 # llm-lm-studio
 
-[![PyPI](https://img.shields.io/pypi/v/llm-lm-studio.svg)](https://pypi.org/project/llm-lm-studio/)
-[![Changelog](https://img.shields.io/github/v/release/simonw/llm-lm-studio?include_prereleases&label=changelog)](https://github.com/simonw/llm-lm-studio/releases)
 [![Tests](https://github.com/simonw/llm-lm-studio/actions/workflows/test.yml/badge.svg)](https://github.com/simonw/llm-lm-studio/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/llm-lm-studio/blob/main/LICENSE)
 
-LLM plugin for local models via [LM Studio](https://lmstudio.ai/)
+Abandoned LLM plugin for local models via [LM Studio](https://lmstudio.ai/) - **you should use [agustif/llm-lmstudio](https://github.com/agustif/llm-lmstudio) instead**!
 
 ## Installation
 
 Install this plugin in the same environment as [LLM](https://llm.datasette.io/).
 ```bash
-llm install llm-lm-studio
+llm install https://github.com/simonw/llm-lm-studio/archive/refs/heads/main.zip
 ```
 ## Usage
 
